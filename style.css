@@ -345,6 +345,23 @@ footer {
   background-color: #c0cedd;
   transform: scale(1.05);
 }
+.linkedin-btn {
+  display: inline-block;
+  background-color: #292d31;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+.linkedin-btn:hover {
+  background-color: #c0cedd;
+  transform: scale(1.05);
+}
+
 
 @keyframes fadeInUp {
     from {
@@ -438,3 +455,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
